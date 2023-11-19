@@ -42,7 +42,6 @@
 // the minimum interval for sampling analog input
 #define MINIMUM_SAMPLING_INTERVAL   1
 
-
 /*==============================================================================
  * GLOBAL VARIABLES
  *============================================================================*/
