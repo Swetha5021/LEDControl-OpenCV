@@ -6,10 +6,13 @@ import controller as cnt
  
 time.sleep(2.0)
 
+
 mp_draw=mp.solutions.drawing_utils
 mp_hand=mp.solutions.hands
 
+
 tipIds=[4,8,12,16,20]
+
 
 video=cv2.VideoCapture(0)
 
@@ -90,6 +93,7 @@ with mp_hand.Hands(min_detection_confidence=0.5,
         k=cv2.waitKey(1)
         if k==ord('q'):
             break
-         
+
+
 video.release()
 cv2.destroyAllWindows()
