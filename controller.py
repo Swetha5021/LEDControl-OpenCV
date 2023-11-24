@@ -1,5 +1,4 @@
 import pyfirmata
-
 comport='COM3'
 
 board=pyfirmata.Arduino(comport)
