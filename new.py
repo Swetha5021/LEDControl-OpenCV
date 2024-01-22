@@ -4,7 +4,7 @@ import mediapipe as mp
 import time
 import controller as cnt
 
-
+ 
 time.sleep(2.0)
 
 
