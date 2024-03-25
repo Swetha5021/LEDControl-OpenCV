@@ -20,7 +20,6 @@
 
   See file LICENSE.txt for further informations on licensing terms.
 
-  Last updated August 17th, 2017
 */
 
 #include <Servo.h>
